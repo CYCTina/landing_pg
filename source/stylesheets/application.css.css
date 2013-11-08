@@ -1,0 +1,59 @@
+/*
+Syntax error: File to import not found or unreadable: config.
+              Load paths:
+                /home/tchen/sites/samples/middleman-default
+                /home/tchen/sites/samples/middleman-default
+        on line 3 of ./source/stylesheets/application.css.scss
+
+1: // App Config - this is where most of your magic will happen
+2: // ------------------------------------------------------------------------------
+3: @import "config";  // Editing defaults here will override any set in the Stipe gem
+4: 
+5: 
+6: 
+7: // Choose the CSS reset by selectively commenting/uncommenting the import files
+8: // ------------------------------------------------------------------------------
+
+Backtrace:
+./source/stylesheets/application.css.scss:3
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/import_node.rb:45:in `import'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/import_node.rb:28:in `imported_file'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/import_node.rb:37:in `css_import?'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/tree/root_node.rb:20:in `render'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/engine.rb:315:in `_render'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/engine.rb:262:in `render'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:201:in `each'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:235:in `watch'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/plugin.rb:107:in `method_missing'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/exec.rb:452:in `watch_or_update'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/exec.rb:315:in `process_result'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/exec.rb:41:in `parse'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/lib/sass/exec.rb:21:in `parse!'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.9/bin/sass:9:in `<top (required)>'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/bin/sass:19:in `load'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/bin/sass:19:in `<main>'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/bin/ruby_executable_hooks:15:in `eval'
+/home/tchen/.rvm/gems/ruby-1.9.3-p448/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: config.\A               Load paths:\A                 /home/tchen/sites/samples/middleman-default\A                 /home/tchen/sites/samples/middleman-default\A         on line 3 of ./source/stylesheets/application.css.scss\A \A 1: // App Config - this is where most of your magic will happen\A 2: // ------------------------------------------------------------------------------\A 3: @import \"config\";  // Editing defaults here will override any set in the Stipe gem\A 4: \A 5: \A 6: \A 7: // Choose the CSS reset by selectively commenting/uncommenting the import files\A 8: // ------------------------------------------------------------------------------"; }
